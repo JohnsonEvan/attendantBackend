@@ -23,8 +23,9 @@ class AttendantsController < ApplicationController
   # POST /attendants or /attendants.json
   def create
     @attendant = Attendant.create(
-      name: params[:name],
-      email: params[:email]
+      fname: params[:fname],
+      lname: params[:lname],
+      email: params[:email],
     )
     
   end
