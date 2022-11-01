@@ -1,1 +1,1 @@
-api: rails server -p 3001
+api: bin/rails server -p ${PORT:-3001} -e $RAILS_ENV
