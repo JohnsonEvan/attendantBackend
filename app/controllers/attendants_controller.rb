@@ -1,5 +1,4 @@
 class AttendantsController < ApplicationController
-  before_action :authenticate_user,except: [:create,:destroy,:show]
   before_action :set_attendant, only: %i[ show edit update destroy ]
   
   def index
