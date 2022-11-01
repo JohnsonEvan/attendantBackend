@@ -14,6 +14,6 @@ puts 'seeding'
 User.create(name: "Test", email: "admin@ducks.com", password: "admin", password_confirmation: "admin", admin: true)
 
 
-Attendant.create(fname: 'Evan',lname: 'Johnson' email:'test@gmail.com')
-Attendant.create(fname: 'Steve',lname: 'Adams' email:'Steve@yahoo.com')
-Attendant.create(fname: 'Mike',lname: 'Williams' email:'Mike@aol.com')
+Attendant.create(fname: 'Evan',lname: 'Johnson', email:'test@gmail.com')
+Attendant.create(fname: 'Steve',lname: 'Adams', email:'Steve@yahoo.com')
+Attendant.create(fname: 'Mike',lname: 'Williams', email:'Mike@aol.com')
