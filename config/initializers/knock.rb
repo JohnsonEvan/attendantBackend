@@ -1,4 +1,4 @@
-Knock.setup do |config|
+#Knock.setup do |config|
 
     ## Expiration claim
     ## ----------------
@@ -56,6 +56,6 @@ Knock.setup do |config|
     ##
     ## Default:
     # config.not_found_exception_class_name = 'ActiveRecord::RecordNotFound'
-    config.token_secret_signature_key = -> { Rails.application.credentials.fetch(:secret_key_base) }
-  end
+    #config.token_secret_signature_key = -> { Rails.application.credentials.fetch(:secret_key_base) }
+  #end
   
